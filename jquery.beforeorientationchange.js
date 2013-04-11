@@ -72,8 +72,6 @@
         
         self._$window.bind("devicemotion", function(event) {
             
-            console.log(event);
-            
             //Calculations using orientation detection algorithm:
             //http://www.freescale.com/files/sensors/doc/app_note/AN3461.pdf
                         
